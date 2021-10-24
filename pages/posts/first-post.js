@@ -1,10 +1,12 @@
 import Link from 'next/link'
 import Head from 'next/head'
+// On importe le fichier JS du style dans le dossier components.
 import Layout from '../../components/layout'
 
 export default function FirstPost() {
     return (
         <>
+        {/* On viens entourer ce qu'on souhaite styliser par les balises <Layout>  */}
             <Layout>
                 <Head>
                     <title>Create Next App</title>
